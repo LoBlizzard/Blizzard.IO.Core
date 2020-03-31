@@ -2,7 +2,7 @@
 
 namespace Blizzard.IO.Core
 {
-    public interface ITypeDeserializer<TData>
+    public interface IConcreteTypeDeserializer<TData>
     {
         TData Deserialize(TData data, Type type);
     }
