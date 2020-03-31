@@ -2,6 +2,6 @@
 {
     public interface IDeserializer<TData>
     {
-        TData Deserialize(byte[] data);
+        TData Deserialize(byte[] bytes);
     }
 }
