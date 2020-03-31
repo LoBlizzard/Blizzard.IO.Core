@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blizzard.IO.Core", "Blizzard.IO.Core\Blizzard.IO.Core.csproj", "{455C07A6-C240-4430-9C57-B1FA2C9559B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455C07A6-C240-4430-9C57-B1FA2C9559B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455C07A6-C240-4430-9C57-B1FA2C9559B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455C07A6-C240-4430-9C57-B1FA2C9559B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455C07A6-C240-4430-9C57-B1FA2C9559B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA695C5-F447-41B6-88FB-601B8AF76CE5}
+	EndGlobalSection
+EndGlobal
