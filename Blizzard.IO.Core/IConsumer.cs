@@ -6,6 +6,7 @@ namespace Blizzard.IO.Core
     {
         void StartConsume();
         void StopConsume();
-        event Action<TData> MessageConsumed;
+
+        event Action<TData> MessageReceived;
     }
 }
