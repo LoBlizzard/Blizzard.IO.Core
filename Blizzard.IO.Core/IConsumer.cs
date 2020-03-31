@@ -4,8 +4,8 @@ namespace Blizzard.IO.Core
 {
     public interface IConsumer<out TData>
     {
-        void StartConsume();
-        void StopConsume();
+        void Start();
+        void Stop();
 
         event Action<TData> MessageReceived;
     }
