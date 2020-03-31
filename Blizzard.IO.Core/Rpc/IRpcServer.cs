@@ -5,7 +5,7 @@ namespace Blizzard.IO.Core.Rpc
 {
     public interface IRpcServer
     {
-        void Respond<TReq, TRes>(Func<TReq, TRes> callback);
-        void RespondAsync<TReq, TRes>(Func<TReq, Task<TRes>> callback);
+        void Respond<TRequest, TRespond>(Func<TRequest, TRespond> callback);
+        void RespondAsync<TRequest, TRespond>(Func<TRequest, Task<TRespond>> callback);
     }
 }
