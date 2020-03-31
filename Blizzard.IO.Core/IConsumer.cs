@@ -2,7 +2,7 @@
 
 namespace Blizzard.IO.Core
 {
-    public interface IConsumer<out TData>
+    public interface IConsumer<TData>
     {
         void Start();
         void Stop();
