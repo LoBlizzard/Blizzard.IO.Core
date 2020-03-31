@@ -1,5 +1,5 @@
 ﻿namespace Blizzard.IO.Core
 {
-    public class BaseMetadata
+    public abstract class BaseMetadata
     {}
 }
