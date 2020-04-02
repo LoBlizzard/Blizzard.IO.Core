@@ -7,7 +7,7 @@ namespace Blizzard.IO.Core.Rpc
         TRespond Request<TRequest , TRespond>(TRequest request)
         where TRequest:class
         where TRespond:class;
-        Task<TRespond> RequestASync<TRequest , TRespond>(TRequest request)
+        Task<TRespond> RequestAsync<TRequest , TRespond>(TRequest request)
         where TRequest : class
         where TRespond : class;
     }
