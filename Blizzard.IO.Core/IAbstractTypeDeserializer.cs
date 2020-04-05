@@ -2,7 +2,7 @@
 
 namespace Blizzard.IO.Core
 {
-    public interface IConcreteTypeDeserializer<TData>
+    public interface IAbstractTypeDeserializer<TData>
     {
         TData Deserialize(byte[] bytes, Type type);
     }
