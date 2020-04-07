@@ -2,11 +2,8 @@
 
 namespace Blizzard.IO.Core
 {
-    public interface IConsumer<TData>
+    public interface IConsumer<TData> : IStartable, IStopable
     {
-        void Start();
-        void Stop();
-
         event Action<TData> MessageReceived;
     }
 }
